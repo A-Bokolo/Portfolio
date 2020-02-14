@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <head>
+        <title>Asiphe Bokolo</title>
+        <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+        <link rel="stylesheet" type="text/css" href="Contact.css">
+    </head>
+
+    <body>
+        <!-- Navigation bar -->
+        <div class="nav">
+            <ul>
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="Contact.html">Contact Me</a></li>
+            </ul>
+          </div>
+       <!-- Image -->
+       <div class="bg-image"></div>
+  <!-- Image -->
+  <div class="flip-card">
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <img src="background.jpg"class="image">
+      </div>
+      <div class="flip-card-back">
+        <h1>ASIPHE BOKOLO</h1>
+        <p>Web Designer</p>
+      </div>
+    </div>
+  </div>
+   
+<div class="container">
+  <h1 class="brand"><span>Asiphe</span>Bokolo</h1>
+  <div class="wrapper">
+    <div class="company-info">
+      <h3></h3>
+      <ul>
+        <li><i class="fa fa-road"></i>60199 Miranda Ngculu Str<br> Kuyasa<br> Khayelitsha 7784</li><br>
+        <li><i class="fa fa-phone"></i>(065) 130-8126</li><br>
+        <li><i class="fa fa-envelope"></i>asiphemamzondi@gmail.com</li><br>
+      </ul>
+    </div>
+    <div class="contact">
+      <form action="mailto:asiphemamzondi@gmail.com" method="POST"enctype="text/plain">
+      <h2>Email me</h2>
+      <div class="alert">Your message has been sent</div><br>
+      <form id="contactForm">
+        <p>
+          <label>Name</label>
+          <input type="text" name="name" id="name" required><br><br>
+        </p>
+        <br>
+        <p>
+          <label>Email Address</label>
+          <input type="email" name="email" id="email" required>
+        </p>
+        <br>
+        <p>
+          <label>Phone Number</label>
+          <input type="text" name="phone" id="phone"required>
+        </p>
+        <p class="full">
+          <label>Message</label>
+          <textarea name="message" rows="5" id="message"required></textarea>
+        </p>
+        <div class="g-recaptcha" data-sitekey="6LcHg9gUAAAAAJwq-Y2lzx-M4GJbirn99eKR2LJd"></div>
+        <p class="full">
+          <button type="submit">Submit</button>
+        </p>
+      </form>
+      </form>
+    </div>
+  </div>
+</div>
+
+ <!-- Footer -->
+<div class="footer">
+  <p>Developed by Asiphe Bokolo</p><br>
+  <div class="icons">
+      <div><a href="https://www.facebook.com/asiphe.maasie2" target="_blank"><img src="facebook.png"width="50px"height="50px"></a></div>
+      &nbsp;
+      <div><a href="https://twitter.com/Asiphe70440071" target="_blank"><img src="twitter.png"width="50px"height="50px"></a></div>
+     &nbsp;
+      <div><a href="https://www.linkedin.com/in/asiphe-bokolo-8747a912a/" target="_blank"><img src="linkedIn.png"width="50px"height="50px"></a></div>
+  </div>
+</div>
+</body>
+   
+<script src="https://www.gstatic.com/firebasejs/4.3.0/firebase.js"></script>
+<script src="ContactForm.js"></script>
+</html>

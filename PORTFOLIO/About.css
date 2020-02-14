@@ -1,0 +1,150 @@
+
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: wheat;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav{
+    width: 100%;
+    background-color: violet;
+    height:80px ;
+}
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+}
+ul li{
+    float:left;
+    margin-top:20px ;
+
+}
+ul li a{
+    width: 150px;
+    color: white;
+    display: block;
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+a:hover{
+    background-color: violet;
+}
+ul li ul{
+    background-color: teal;
+}
+ul li ul li{
+    float:none;
+    
+}
+ul  li ul{
+    display: none;
+
+}
+ul li:hover ul{
+    display: block;
+
+}
+/* Button Links*/
+.button {
+    background-color: green; 
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  
+  .button1 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid greenyellow;
+  }
+  
+  .button1:hover {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .button2 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid blueviolet;
+  }
+  
+  .button2:hover {
+    background-color: #008CBA;
+    color: white;
+  }
+  
+  .button3 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid orangered;
+  }
+  
+  .button3:hover {
+    background-color: green;
+    color: white;
+  }
+  
+  .button4 {
+    background-color: white;
+    color: black;
+    border: 2px solid yellow;
+  }
+  
+  .button4:hover {background-color: indianred;}
+  
+  
+  /* Heading */
+  h3{
+      text-align: center;
+      color: purple;
+      font-size: 80px;
+      font-weight: bold;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+  }
+  /* Image used */
+  img{
+      float: left;
+      font-size: 50px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: turquoise;
+      height: 300px;
+      width: 300px;
+  }
+  img:hover {
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+  }
+  p{
+      font-size: 29px;
+      font-family: 'Times New Roman', Times, serif;
+  }
+ /* Footer */
+ .footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color:violet;
+  color: black;
+  text-align: center;
+}
